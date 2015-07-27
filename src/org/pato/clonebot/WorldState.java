@@ -2,6 +2,7 @@ package org.pato.clonebot;
 
 public class WorldState
 {
+
   public interface Action
   {
     public void run(WorldState state, WorldState.Cell cell, CloneBot bot);

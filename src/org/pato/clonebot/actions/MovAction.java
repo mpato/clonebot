@@ -17,6 +17,6 @@ public class MovAction implements Action
 
   public void run(WorldState state, WorldState.Cell cell, CloneBot bot)
   {
-    state.getSpeciesStrength(bot.getSpecies());
+    bot.getSpecies().getStrength();
   }
 }
